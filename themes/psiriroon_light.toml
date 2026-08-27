@@ -1,0 +1,83 @@
+# Psiriroon Light Theme
+
+# SYNTAX
+
+# Color mappings:
+# background -> white
+# foreground -> black
+#
+# normal     -> foreground
+# comment    -> cyan
+# constant   -> lime
+# variable   -> blue
+# function   -> yellow
+# type       -> purple
+
+"attribute" = "lime"
+"type" = "purple"
+"constructor" = "purple"
+"constant" = "lime"
+"string" = "lime"
+"comment" = { fg = "cyan", bg = "t_cyan", modifiers = ["italic"] }
+"variable" = "blue"
+"label" = "black"
+"punctuation" = "gray"
+"keyword" = "black"
+"operator" = "black"
+"function" = "yellow"
+"tag" = "gray"
+"namespace" = "black"
+"special" = "black"
+# TODO: add markup section
+
+"diff.plus" = { fg = "green", bg = "t_green" }
+"diff.minus" = { fg = "red", bg = "t_red" }
+"diff.delta" = { fg = "blue", bg = "t_blue" }
+
+
+
+# USER INTERFACE
+"ui.background" = { bg = "white" }
+"ui.background.separator" = "gray"
+"ui.cursor" = { fg = "white", bg = "blue" }
+"ui.cursor.normal" = { fg = "white", bg = "blue" }
+"ui.cursor.insert" = { fg = "white", bg = "blue" }
+"ui.cursor.select" = { fg = "white", bg = "blue" }
+"ui.cursor.match" = { fg = "white", bg = "silver" }
+"ui.statusline" = { fg = "white", bg = "black" }
+"ui.statusline.inactive" = { fg = "silver", bg = "gray"}
+"ui.statusline.normal" = { fg = "white", bg = "blue" }
+"ui.statusline.insert" = { fg = "white", bg = "green" }
+"ui.statusline.select" = { fg = "white", bg = "yellow" }
+"ui.statusline.separator" = "gray"
+"ui.text" = "normal"
+"ui.selection" = { fg = "white", bg = "gray" }
+"warning" = "yellow"
+"warning.diagnostic.inline" = "yellow"
+"error" = "red"
+"error.diagnostic.inline" = "red"
+
+[palette]
+"black" = "#0E1019"
+"ash" = "#232323"
+"gray" = "#5A5A5A"
+"silver" = "#9C9C9C"
+"white" = "#FFFAF4"
+
+"red" = "#D61F17"
+"magenta" = "#8951D6"
+"purple" = "#6D43A6"
+"blue" = "#056DBC"
+"sky" = "#000000"
+"cyan" = "#02ADBD"
+"green" = "#4C7E00"
+"lime" = "#81CC0F"
+"yellow" = "#C88600"
+"orange" = "#F87810"
+
+# Translucent (25% opacity over background) colors
+"t_red" = "#F5C3BD"
+"t_blue" = "#C1D7E6"
+"t_cyan" = "#C0E7E6"
+"t_green" = "#D2DBB7"
+
