@@ -43,15 +43,15 @@
 "ui.cursor.normal" = { fg = "white", bg = "blue" }
 "ui.cursor.insert" = { fg = "white", bg = "blue" }
 "ui.cursor.select" = { fg = "white", bg = "blue" }
-"ui.cursor.match" = { fg = "white", bg = "silver" }
+"ui.cursor.match" = { fg = "white", bg = "gray" }
 "ui.statusline" = { fg = "white", bg = "black" }
-"ui.statusline.inactive" = { fg = "silver", bg = "gray"}
+"ui.statusline.inactive" = { fg = "black", bg = "gray"}
 "ui.statusline.normal" = { fg = "white", bg = "blue" }
 "ui.statusline.insert" = { fg = "white", bg = "green" }
 "ui.statusline.select" = { fg = "white", bg = "yellow" }
 "ui.statusline.separator" = "gray"
-"ui.text" = "normal"
-"ui.selection" = { fg = "white", bg = "gray" }
+"ui.text" = "black"
+"ui.selection" = { bg = "t_blue" }
 "warning" = "yellow"
 "warning.diagnostic.inline" = "yellow"
 "error" = "red"

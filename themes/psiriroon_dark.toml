@@ -21,13 +21,13 @@
 "comment" = { fg = "cyan", bg = "t_cyan", modifiers = ["italic"] }
 "variable" = "blue"
 "label" = "white"
-"punctuation" = "gray"
+"punctuation" = "silver"
 "keyword" = "white"
 "operator" = "white"
 "function" = "yellow"
-"tag" = "gray"
-"namespace" = "black"
-"special" = "black"
+"tag" = "silver"
+"namespace" = "white"
+"special" = "white"
 # TODO: add markup section
 
 "diff.plus" = { fg = "green", bg = "t_green" }
@@ -43,15 +43,15 @@
 "ui.cursor.normal" = { fg = "black", bg = "blue" }
 "ui.cursor.insert" = { fg = "black", bg = "green" }
 "ui.cursor.select" = { fg = "black", bg = "yellow" }
-"ui.cursor.match" = { fg = "black", bg = "ash" }
+"ui.cursor.match" = { fg = "black", bg = "silver" }
 "ui.statusline" = { fg = "black", bg = "white" }
-"ui.statusline.inactive" = { fg = "ash", bg = "gray"}
+"ui.statusline.inactive" = { fg = "white", bg = "gray"}
 "ui.statusline.normal" = { fg = "black", bg = "blue" }
 "ui.statusline.insert" = { fg = "black", bg = "green" }
 "ui.statusline.select" = { fg = "black", bg = "yellow" }
 "ui.statusline.separator" = "gray"
-"ui.text" = "normal"
-"ui.selection" = { fg = "black", bg = "gray" }
+"ui.text" = "white"
+"ui.selection" = { bg = "t_blue" }
 "warning" = "yellow"
 "warning.diagnostic.inline" = "yellow"
 "error" = "red"
