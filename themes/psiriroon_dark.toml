@@ -24,40 +24,84 @@
 "punctuation" = "silver"
 "keyword" = "white"
 "operator" = "white"
-"function" = "yellow"
-"tag" = "silver"
+"function" = "orange"
+"tag" = "gray"
 "namespace" = "white"
 "special" = "white"
 # TODO: add markup section
 
+# DIAGNOSTICS
+# Gutter
+"hint" = "silver"
+"info" = "white"
+"warning" = "yellow"
+"error" = "red"
+
+# Inline
+"diagnostic" = "white"
+"diagnostic.hint" = "silver"
+"diagnostic.info" = "white"
+"diagnostic.warning" = { fg = "yellow", underline = { color = "yellow", style = "curl" } }
+"diagnostic.error" = { fg = "red", underline = { color = "red", style = "curl" }, modifiers = ["bold"] }
+"diagnostic.unecessary" = "gray"
+"diagnostic.deprecated" = { modifiers = ["crossed-out"] }
+
+# DIFF
 "diff.plus" = { fg = "green", bg = "t_green" }
 "diff.minus" = { fg = "red", bg = "t_red" }
 "diff.delta" = { fg = "blue", bg = "t_blue" }
 
-
-
-# USER INTERFACE
+# UI
 "ui.background" = { bg = "black" }
 "ui.background.separator" = "gray"
+
 "ui.cursor" = { fg = "black", bg = "blue" }
 "ui.cursor.normal" = { fg = "black", bg = "blue" }
 "ui.cursor.insert" = { fg = "black", bg = "green" }
 "ui.cursor.select" = { fg = "black", bg = "yellow" }
 "ui.cursor.match" = { fg = "black", bg = "silver" }
-"ui.statusline" = { fg = "black", bg = "white" }
-"ui.statusline.inactive" = { fg = "white", bg = "gray"}
-"ui.statusline.normal" = { fg = "black", bg = "blue" }
-"ui.statusline.insert" = { fg = "black", bg = "green" }
-"ui.statusline.select" = { fg = "black", bg = "yellow" }
-"ui.statusline.separator" = "gray"
-"ui.text" = "white"
-"ui.selection" = { bg = "t_blue" }
-"warning" = "yellow"
-"warning.diagnostic.inline" = "yellow"
-"error" = "red"
-"error.diagnostic.inline" = "red"
 
+"ui.debug.breakpoint" = { fg = "purple" }
+"ui.debug.active" = { fg = "magenta"  }
+
+"ui.gutter" = { bg = "black" }
+"ui.gutter.selected" = { bg = "black" }
+
+"ui.linenr" = "silver"
+"ui.linenr.selected" = "white"
+
+"ui.statusline" = { fg = "white", bg = "gray" }
+"ui.statusline.inactive" = { fg = "silver", bg = "gray"}
+"ui.statusline.normal" = { fg = "white", bg = "blue" }
+"ui.statusline.insert" = { fg = "white", bg = "green" }
+"ui.statusline.select" = { fg = "white", bg = "yellow" }
+"ui.statusline.separator" = "silver"
+
+"ui.bufferline" = { fg = "white", bg = "gray" }
+"ui.bufferline.active" = { fg = "black", bg = "white" }
+"ui.bufferline.background" = { fg = "black", bg = "gray" }
+
+"ui.popup" = { fg = "white", bg = "ash" }
+"ui.popup.info" = { fg = "white", bg = "ash" }
+
+"ui.help" = { fg = "white", bg = "ash" }
+
+"ui.text" = "white"
+"ui.text.focus" = { underline = { color = "white", style = "line" } }
+"ui.text.inactive" = "silver"
+"ui.text.info" = "white"
+
+"ui.virtual.indent-guide" = "gray"
+"ui.virtual.wrap" = "gray"
+
+"ui.menu" = { fg = "white", bg = "ash" }
+"ui.menu.selected" = { underline = { color = "white", style = "line" } }
+
+"ui.selection" = { bg = "t_blue" }
+
+# PALETTE
 [palette]
+# Basic
 "black" = "#0E1019"
 "ash" = "#232323"
 "gray" = "#5A5A5A"
