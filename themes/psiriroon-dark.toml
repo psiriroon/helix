@@ -21,7 +21,7 @@
 "comment" = { fg = "cyan", bg = "t_cyan", modifiers = ["italic"] }
 "variable" = "blue"
 "label" = "white"
-"punctuation" = "silver"
+"punctuation" = "ivory"
 "keyword" = "white"
 "operator" = "white"
 "function" = "orange"
@@ -32,14 +32,14 @@
 
 # DIAGNOSTICS
 # Gutter
-"hint" = "silver"
+"hint" = "ivory"
 "info" = "white"
 "warning" = "yellow"
 "error" = "red"
 
 # Inline
 "diagnostic" = "white"
-"diagnostic.hint" = "silver"
+"diagnostic.hint" = "ivory"
 "diagnostic.info" = "white"
 "diagnostic.warning" = { fg = "yellow", underline = { color = "yellow", style = "curl" } }
 "diagnostic.error" = { fg = "red", underline = { color = "red", style = "curl" }, modifiers = ["bold"] }
@@ -56,10 +56,10 @@
 "ui.background.separator" = "gray"
 
 "ui.cursor" = { fg = "black", bg = "blue" }
-"ui.cursor.normal" = { fg = "black", bg = "blue" }
-"ui.cursor.insert" = { fg = "black", bg = "green" }
-"ui.cursor.select" = { fg = "black", bg = "yellow" }
-"ui.cursor.match" = { fg = "black", bg = "silver" }
+"ui.cursor.normal" = { fg = "black", bg = "blue", modifiers = ["slow_blink"] }
+"ui.cursor.insert" = { fg = "black", bg = "green" , modifiers = ["slow_blink"] }
+"ui.cursor.select" = { fg = "black", bg = "orange" , modifiers = ["slow_blink"] }
+"ui.cursor.match" = { fg = "black", bg = "ivory" , modifiers = ["slow_blink"] }
 
 "ui.debug.breakpoint" = { fg = "purple" }
 "ui.debug.active" = { fg = "magenta"  }
@@ -67,34 +67,35 @@
 "ui.gutter" = { bg = "black" }
 "ui.gutter.selected" = { bg = "black" }
 
-"ui.linenr" = "silver"
+"ui.linenr" = "concrete"
 "ui.linenr.selected" = "white"
 
 "ui.statusline" = { fg = "white", bg = "gray" }
-"ui.statusline.inactive" = { fg = "silver", bg = "gray"}
-"ui.statusline.normal" = { fg = "white", bg = "blue" }
-"ui.statusline.insert" = { fg = "white", bg = "green" }
-"ui.statusline.select" = { fg = "white", bg = "yellow" }
-"ui.statusline.separator" = "silver"
+"ui.statusline.inactive" = { fg = "ivory", bg = "gray"}
+"ui.statusline.normal" = { fg = "sky", bg = "blue" }
+"ui.statusline.insert" = { fg = "lime", bg = "green" }
+"ui.statusline.select" = { fg = "yellow", bg = "orange" }
+"ui.statusline.separator" = "ivory"
 
 "ui.bufferline" = { fg = "white", bg = "gray" }
-"ui.bufferline.active" = { fg = "black", bg = "white" }
+"ui.bufferline.active" = { fg = "black", bg = "ivory" }
 "ui.bufferline.background" = { fg = "black", bg = "gray" }
 
-"ui.popup" = { fg = "white", bg = "ash" }
-"ui.popup.info" = { fg = "white", bg = "ash" }
+"ui.popup" = { fg = "white", bg = "slate" }
+"ui.popup.info" = { fg = "white", bg = "slate" }
 
-"ui.help" = { fg = "white", bg = "ash" }
+"ui.help" = { fg = "white", bg = "slate" }
 
 "ui.text" = "white"
 "ui.text.focus" = { underline = { color = "white", style = "line" } }
-"ui.text.inactive" = "silver"
+"ui.text.inactive" = "ivory"
 "ui.text.info" = "white"
 
+"ui.virtual.ruler" = "gray"
 "ui.virtual.indent-guide" = "gray"
 "ui.virtual.wrap" = "gray"
 
-"ui.menu" = { fg = "white", bg = "ash" }
+"ui.menu" = { fg = "white", bg = "slate" }
 "ui.menu.selected" = { underline = { color = "white", style = "line" } }
 
 "ui.selection" = { bg = "t_blue" }
@@ -103,9 +104,10 @@
 [palette]
 # Basic
 "black" = "#0E1019"
-"ash" = "#232323"
-"gray" = "#5A5A5A"
-"silver" = "#9C9C9C"
+"slate" = "#2B2A33"
+"gray" = "#52525A"
+"concrete" = "#A7ADA0"
+"ivory" = "#DFE0D8"
 "white" = "#FFFAF4"
 
 "red" = "#FF000F"

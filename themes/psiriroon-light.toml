@@ -1,0 +1,135 @@
+# Psiriroon Light Theme
+
+# SYNTAX
+
+# Color mappings:
+# background -> white
+# foreground -> black
+#
+# normal     -> foreground
+# comment    -> cyan
+# constant   -> lime
+# variable   -> blue
+# function   -> yellow
+# type       -> purple
+
+"attribute" = "lime"
+"type" = "purple"
+"constructor" = "purple"
+"constant" = "lime"
+"string" = "lime"
+"comment" = { fg = "cyan", bg = "t_cyan", modifiers = ["italic"] }
+"variable" = "blue"
+"label" = "black"
+"punctuation" = "slate"
+"keyword" = "black"
+"operator" = "black"
+"function" = "orange"
+"tag" = "gray"
+"namespace" = "black"
+"special" = "black"
+# TODO: add markup section
+
+# DIAGNOSTICS
+# Gutter
+"hint" = "ivory"
+"info" = "white"
+"warning" = "yellow"
+"error" = "red"
+
+# Inline
+"diagnostic" = "black"
+"diagnostic.hint" = "black"
+"diagnostic.info" = "black"
+"diagnostic.warning" = { fg = "yellow", underline = { color = "yellow", style = "curl" } }
+"diagnostic.error" = { fg = "red", underline = { color = "red", style = "curl" }, modifiers = ["bold"] }
+"diagnostic.unecessary" = "gray"
+"diagnostic.deprecated" = { modifiers = ["crossed-out"] }
+
+# DIFF
+"diff.plus" = { fg = "green", bg = "t_green" }
+"diff.minus" = { fg = "red", bg = "t_red" }
+"diff.delta" = { fg = "blue", bg = "t_blue" }
+
+# UI
+"ui.background" = { bg = "white" }
+"ui.background.separator" = "gray"
+
+"ui.cursor" = { fg = "white", bg = "blue" }
+"ui.cursor.normal" = { fg = "white", bg = "blue", modifiers = ["slow_blink"] }
+"ui.cursor.insert" = { fg = "white", bg = "green" , modifiers = ["slow_blink"] }
+"ui.cursor.select" = { fg = "white", bg = "orange" , modifiers = ["slow_blink"] }
+"ui.cursor.match" = { fg = "white", bg = "concrete" , modifiers = ["slow_blink"] }
+
+"ui.debug.breakpoint" = { fg = "purple" }
+"ui.debug.active" = { fg = "magenta"  }
+
+"ui.gutter" = { bg = "white" }
+"ui.gutter.selected" = { bg = "white" }
+
+"ui.linenr" = "gray"
+"ui.linenr.selected" = "black"
+
+"ui.statusline" = { fg = "white", bg = "gray" }
+"ui.statusline.inactive" = { fg = "ivory", bg = "gray"}
+"ui.statusline.normal" = { fg = "sky", bg = "blue" }
+"ui.statusline.insert" = { fg = "lime", bg = "green" }
+"ui.statusline.select" = { fg = "yellow", bg = "orange" }
+"ui.statusline.separator" = "ivory"
+
+"ui.bufferline" = { fg = "white", bg = "gray" }
+"ui.bufferline.active" = { fg = "black", bg = "ivory" }
+"ui.bufferline.background" = { fg = "black", bg = "gray" }
+
+"ui.popup" = { fg = "white", bg = "gray" }
+"ui.popup.info" = { fg = "white", bg = "gray" }
+
+"ui.help" = { fg = "white", bg = "gray" }
+
+"ui.text" = "white"
+"ui.text.focus" = { underline = { color = "white", style = "line" } }
+"ui.text.inactive" = "ivory"
+"ui.text.info" = "white"
+
+"ui.virtual.ruler" = "gray"
+"ui.virtual.indent-guide" = "gray"
+"ui.virtual.wrap" = "gray"
+
+"ui.menu" = { fg = "white", bg = "gray" }
+"ui.menu.selected" = { underline = { color = "white", style = "line" } }
+
+"ui.selection" = { bg = "t_blue" }
+
+# PALETTE
+[palette]
+# Basic
+"black" = "#0E1019"
+"slate" = "#2B2A33"
+"gray" = "#52525A"
+"concrete" = "#A7ADA0"
+"ivory" = "#DFE0D8"
+"white" = "#FFFAF4"
+
+"red" = "#D61F17"
+"magenta" = "#8951D6"
+"purple" = "#6D43A6"
+"blue" = "#056DBC"
+"sky" = "#0283E5"
+"cyan" = "#02ADBD"
+"green" = "#4C7E00"
+"lime" = "#81CC0F"
+"yellow" = "#C88600"
+"orange" = "#ECAE0A"
+
+# Translucent (25% opacity over background) colors
+"t_red" = "#F5C3BD"
+"t_magenta" = "#000"
+"t_purple" = "#000"
+"t_blue" = "#C1D7E6"
+"t_sky" = "#000"
+"t_cyan" = "#C0E7E6"
+"t_green" = "#D2DBB7"
+"t_lime" = "#000"
+"t_yellow" = "#000"
+"t_orange" = "#000"
+
