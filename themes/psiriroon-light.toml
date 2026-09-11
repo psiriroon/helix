@@ -21,7 +21,7 @@
 "comment" = { fg = "cyan", bg = "t_cyan", modifiers = ["italic"] }
 "variable" = "blue"
 "label" = "black"
-"punctuation" = "slate"
+"punctuation" = "gray"
 "keyword" = "black"
 "operator" = "black"
 "function" = "orange"
@@ -32,8 +32,8 @@
 
 # DIAGNOSTICS
 # Gutter
-"hint" = "ivory"
-"info" = "white"
+"hint" = "gray"
+"info" = "gray"
 "warning" = "yellow"
 "error" = "red"
 
@@ -56,10 +56,10 @@
 "ui.background.separator" = "gray"
 
 "ui.cursor" = { fg = "white", bg = "blue" }
-"ui.cursor.normal" = { fg = "white", bg = "blue", modifiers = ["slow_blink"] }
-"ui.cursor.insert" = { fg = "white", bg = "green" , modifiers = ["slow_blink"] }
-"ui.cursor.select" = { fg = "white", bg = "orange" , modifiers = ["slow_blink"] }
-"ui.cursor.match" = { fg = "white", bg = "concrete" , modifiers = ["slow_blink"] }
+"ui.cursor.normal" = { fg = "white", bg = "blue" }
+"ui.cursor.insert" = { fg = "white", bg = "green" }
+"ui.cursor.select" = { fg = "white", bg = "orange" }
+"ui.cursor.match" = { fg = "white", bg = "concrete" }
 
 "ui.debug.breakpoint" = { fg = "purple" }
 "ui.debug.active" = { fg = "magenta"  }
@@ -86,17 +86,18 @@
 
 "ui.help" = { fg = "white", bg = "gray" }
 
-"ui.text" = "white"
-"ui.text.focus" = { underline = { color = "white", style = "line" } }
-"ui.text.inactive" = "ivory"
-"ui.text.info" = "white"
+"ui.text" = "black"
+"ui.text.focus" = { underline = { color = "black", style = "line" } }
+"ui.text.inactive" = "slate"
+"ui.text.info" = "lime"
+"ui.text.directory" = "cyan"
 
 "ui.virtual.ruler" = "gray"
 "ui.virtual.indent-guide" = "gray"
 "ui.virtual.wrap" = "gray"
 
 "ui.menu" = { fg = "white", bg = "gray" }
-"ui.menu.selected" = { underline = { color = "white", style = "line" } }
+"ui.menu.selected" = { fg = "black", bg = "ivory" }
 
 "ui.selection" = { bg = "t_blue" }
 
