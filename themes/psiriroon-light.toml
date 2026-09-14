@@ -72,9 +72,9 @@
 
 "ui.statusline" = { fg = "white", bg = "gray" }
 "ui.statusline.inactive" = { fg = "ivory", bg = "gray"}
-"ui.statusline.normal" = { fg = "sky", bg = "blue" }
-"ui.statusline.insert" = { fg = "lime", bg = "green" }
-"ui.statusline.select" = { fg = "yellow", bg = "orange" }
+"ui.statusline.normal" = { fg = "t_sky", bg = "blue" }
+"ui.statusline.insert" = { fg = "t_lime", bg = "green" }
+"ui.statusline.select" = { fg = "t_yellow", bg = "orange" }
 "ui.statusline.separator" = "ivory"
 
 "ui.bufferline" = { fg = "white", bg = "gray" }
@@ -89,17 +89,17 @@
 "ui.text" = "black"
 "ui.text.focus" = { underline = { color = "black", style = "line" } }
 "ui.text.inactive" = "slate"
-"ui.text.info" = "lime"
-"ui.text.directory" = "cyan"
+"ui.text.info" = "t_blue"
+"ui.text.directory" = "t_sky"
 
-"ui.virtual.ruler" = "gray"
+"ui.virtual.ruler" = "t_red"
 "ui.virtual.indent-guide" = "gray"
 "ui.virtual.wrap" = "gray"
 
 "ui.menu" = { fg = "white", bg = "gray" }
 "ui.menu.selected" = { fg = "black", bg = "ivory" }
 
-"ui.selection" = { bg = "t_blue" }
+"ui.selection" = { bg = "t_magenta" }
 
 # PALETTE
 [palette]
@@ -118,19 +118,19 @@
 "sky" = "#0283E5"
 "cyan" = "#02ADBD"
 "green" = "#4C7E00"
-"lime" = "#81CC0F"
-"yellow" = "#C88600"
-"orange" = "#ECAE0A"
+"lime" = "#6FB00D"
+"yellow" = "#ECAE0A"
+"orange" = "#C88600"
 
-# Translucent (25% opacity over background) colors
+# Translucent colors
 "t_red" = "#F5C3BD"
-"t_magenta" = "#000"
-"t_purple" = "#000"
+"t_magenta" = "#E2D0ED"
+"t_purple" = "#DBCCE1"
 "t_blue" = "#C1D7E6"
-"t_sky" = "#000"
+"t_sky" = "#C0DCF0"
 "t_cyan" = "#C0E7E6"
 "t_green" = "#D2DBB7"
-"t_lime" = "#000"
-"t_yellow" = "#000"
-"t_orange" = "#000"
+"t_lime" = "#DBE8BA"
+"t_yellow" = "#FAE7BA"
+"t_orange" = "#F1DDB7"
 
