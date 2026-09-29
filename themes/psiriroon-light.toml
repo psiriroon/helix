@@ -112,16 +112,18 @@
 "white" = "#FFFAF4"
 
 # Chromatic
-"red" = "#DD2820"
-"magenta" = "#8F2AAC"
-"purple" = "#6D43A6"
+"peach" = "#ED6B5E"
+"red" = "#DD202E"
+"magenta" = "#AC2EB7"
+"purple" = "#6A2FBA"
 "blue" = "#056DBC"
-"sky" = "#358CC1"
-"cyan" = "#02ADBD"
-"green" = "#007E1C"
+"sky" = "#0092EB"
+"cyan" = "#00AFBF"
+"teal" = "#D8EBFF"
+"green" = "#007E3F"
 "lime" = "#6FB00D"
 "yellow" = "#ECAE0A"
-"orange" = "#C86800"
+"orange" = "#ED6F08"
 
 # Translucent Chromatic
 "t_red" = "#F7C6BF"
