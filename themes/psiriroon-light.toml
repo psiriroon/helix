@@ -77,29 +77,29 @@
 "ui.statusline.select" = { fg = "t_yellow", bg = "orange" }
 "ui.statusline.separator" = "ivory"
 
-"ui.bufferline" = { fg = "white", bg = "gray" }
+"ui.bufferline" = { fg = "ivory", bg = "gray" }
 "ui.bufferline.active" = { fg = "black", bg = "ivory" }
 "ui.bufferline.background" = { fg = "black", bg = "gray" }
 
-"ui.popup" = { fg = "white", bg = "gray" }
-"ui.popup.info" = { fg = "white", bg = "gray" }
+"ui.popup" = { fg = "black", bg = "ivory" }
+"ui.popup.info" = { fg = "black", bg = "ivory" }
 
-"ui.help" = { fg = "white", bg = "gray" }
+"ui.help" = { fg = "black", bg = "ivory" }
 
 "ui.text" = "black"
 "ui.text.focus" = { underline = { color = "black", style = "line" } }
-"ui.text.inactive" = "slate"
-"ui.text.info" = "t_blue"
-"ui.text.directory" = "t_sky"
+"ui.text.inactive" = "gray"
+"ui.text.info" = "blue"
+"ui.text.directory" = "sky"
 
 "ui.virtual.ruler" = "t_red"
 "ui.virtual.indent-guide" = "gray"
 "ui.virtual.wrap" = "gray"
 
-"ui.menu" = { fg = "white", bg = "gray" }
-"ui.menu.selected" = { fg = "black", bg = "ivory" }
+"ui.menu" = { fg = "black", bg = "ivory" }
+"ui.menu.selected" = { fg = "black", bg = "ivory", underline = { color = "black", style = "line" } }
 
-"ui.selection" = { bg = "t_magenta" }
+"ui.selection" = { bg = "t_orange" }
 
 # PALETTE
 [palette]
