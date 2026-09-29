@@ -21,7 +21,7 @@
 "comment" = { fg = "cyan", bg = "t_cyan", modifiers = ["italic"] }
 "variable" = "blue"
 "label" = "black"
-"punctuation" = "gray"
+"punctuation" = "concrete"
 "keyword" = "black"
 "operator" = "black"
 "function" = "orange"
@@ -67,7 +67,7 @@
 "ui.gutter" = { bg = "white" }
 "ui.gutter.selected" = { bg = "white" }
 
-"ui.linenr" = "gray"
+"ui.linenr" = "concrete"
 "ui.linenr.selected" = "black"
 
 "ui.statusline" = { fg = "white", bg = "gray" }
@@ -94,7 +94,7 @@
 
 "ui.virtual.ruler" = "t_red"
 "ui.virtual.indent-guide" = "gray"
-"ui.virtual.wrap" = "gray"
+"ui.virtual.wrap" = "concrete"
 
 "ui.menu" = { fg = "black", bg = "ivory" }
 "ui.menu.selected" = { fg = "black", bg = "ivory", underline = { color = "black", style = "line" } }
@@ -105,32 +105,35 @@
 [palette]
 # Basic
 "black" = "#0E1019"
-"slate" = "#2B2A33"
-"gray" = "#52525A"
-"concrete" = "#A7ADA0"
-"ivory" = "#DFE0D8"
+"slate" = "#292B35"
+"gray" = "#3E434D"
+"concrete" = "#787C79"
+"ivory" = "#B8B8B2"
 "white" = "#FFFAF4"
 
-"red" = "#D61F17"
-"magenta" = "#8951D6"
-"purple" = "#6D43A6"
+# Chromatic
+"peach" = "#ED6B5E"
+"red" = "#DD202E"
+"magenta" = "#AC2EB7"
+"purple" = "#6A2FBA"
 "blue" = "#056DBC"
-"sky" = "#0283E5"
-"cyan" = "#02ADBD"
-"green" = "#4C7E00"
+"sky" = "#0092EB"
+"cyan" = "#00AFBF"
+"teal" = "#D8EBFF"
+"green" = "#007E3F"
 "lime" = "#6FB00D"
 "yellow" = "#ECAE0A"
-"orange" = "#C88600"
+"orange" = "#ED6F08"
 
-# Translucent colors
-"t_red" = "#F5C3BD"
-"t_magenta" = "#E2D0ED"
+# Translucent Chromatic
+"t_red" = "#F7C6BF"
+"t_magenta" = "#E3C6E2"
 "t_purple" = "#DBCCE1"
 "t_blue" = "#C1D7E6"
-"t_sky" = "#C0DCF0"
+"t_sky" = "#CDDFE7"
 "t_cyan" = "#C0E7E6"
-"t_green" = "#D2DBB7"
+"t_green" = "#BFDBBE"
 "t_lime" = "#DBE8BA"
 "t_yellow" = "#FAE7BA"
-"t_orange" = "#F1DDB7"
+"t_orange" = "#F1D6B7"
 

@@ -72,9 +72,9 @@
 
 "ui.statusline" = { fg = "white", bg = "gray" }
 "ui.statusline.inactive" = { fg = "ivory", bg = "gray"}
-"ui.statusline.normal" = { fg = "sky", bg = "blue" }
-"ui.statusline.insert" = { fg = "lime", bg = "green" }
-"ui.statusline.select" = { fg = "yellow", bg = "orange" }
+"ui.statusline.normal" = { fg = "t_blue", bg = "blue" }
+"ui.statusline.insert" = { fg = "t_green", bg = "green" }
+"ui.statusline.select" = { fg = "t_orange", bg = "orange" }
 "ui.statusline.separator" = "ivory"
 
 "ui.bufferline" = { fg = "white", bg = "gray" }
@@ -104,26 +104,34 @@
 [palette]
 # Basic
 "black" = "#0E1019"
-"slate" = "#2B2A33"
-"gray" = "#52525A"
-"concrete" = "#A7ADA0"
-"ivory" = "#DFE0D8"
+"slate" = "#292B35"
+"gray" = "#3E434D"
+"concrete" = "#787C79"
+"ivory" = "#B8B8B2"
 "white" = "#FFFAF4"
 
+"peach" = "#FF8D7F"
 "red" = "#FF000F"
-"magenta" = "#E67BF7"
+"magenta" = "#F480FF"
 "purple" = "#9A5FEB"
 "blue" = "#0092FF"
 "sky" = "#4DBCFF"
 "cyan" = "#00D8EB"
-"green" = "#0EB75B"
+"teal" = "#11F8F8"
+"green" = "#1ABC9B"
 "lime" = "#8CE10B"
 "yellow" = "#FFB900"
 "orange" = "#F87810"
 
 # Translucent (25% opacity over background) colors
-"t_red" = "#870814"
-"t_blue" = "#07518C"
+"t_red" = "#4A0C17"
+"t_magenta" = "#462C53"
+"t_purple" = "#31244E"
+"t_blue" = "#0B3153"
+"t_sky" = "#1E3B53"
 "t_cyan" = "#0B424E"
-"t_green" = "#0E643A"
+"t_green" = "#123A23"
+"t_lime" = "#2E4416"
+"t_yellow" = "#4A3A13"
+"t_orange" = "#492A17"
 
