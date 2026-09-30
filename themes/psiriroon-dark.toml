@@ -24,7 +24,7 @@
 "punctuation" = "ivory"
 "keyword" = "white"
 "operator" = "white"
-"function" = "orange"
+"function" = "yellow"
 "tag" = "gray"
 "namespace" = "white"
 "special" = "white"

@@ -24,7 +24,7 @@
 "punctuation" = "concrete"
 "keyword" = "black"
 "operator" = "black"
-"function" = "orange"
+"function" = "yellow"
 "tag" = "gray"
 "namespace" = "black"
 "special" = "black"
